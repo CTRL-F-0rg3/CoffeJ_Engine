@@ -1,0 +1,161 @@
+/* Ciemno-czerwony motyw w stylu Godot */
+
+/* Kolory składni */
+.keyword {
+    -fx-fill: #ff6b9d;
+    -fx-font-weight: bold;
+}
+
+.string {
+    -fx-fill: #a5d6a7;
+}
+
+.comment {
+    -fx-fill: #6a9955;
+    -fx-font-style: italic;
+}
+
+.number {
+    -fx-fill: #b5cea8;
+}
+
+.paren, .brace, .bracket {
+    -fx-fill: #ffd700;
+    -fx-font-weight: bold;
+}
+
+.semicolon {
+    -fx-fill: #e0e0e0;
+}
+
+/* Scrollbar */
+.scroll-bar {
+    -fx-background-color: #1e1e1e;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #e74856;
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #ff5865;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #2d2d30;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #2d2d30;
+}
+
+/* Menu */
+.menu-bar {
+    -fx-background-color: #141414;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.menu-item {
+    -fx-background-color: #252526;
+}
+
+.menu-item:focused {
+    -fx-background-color: #e74856;
+}
+
+.menu-item .label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.context-menu {
+    -fx-background-color: #252526;
+    -fx-border-color: #3e3e42;
+}
+
+/* Tabs */
+.tab-pane {
+    -fx-background-color: #252526;
+}
+
+.tab-pane .tab-header-area {
+    -fx-background-color: #1e1e1e;
+}
+
+.tab {
+    -fx-background-color: #2d2d30;
+    -fx-text-fill: #9d9d9d;
+}
+
+.tab:selected {
+    -fx-background-color: #e74856;
+    -fx-text-fill: white;
+}
+
+.tab .tab-close-button {
+    -fx-background-color: #9d9d9d;
+}
+
+/* TreeView */
+.tree-view {
+    -fx-background-color: #1e1e1e;
+}
+
+.tree-cell {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #e0e0e0;
+}
+
+.tree-cell:selected {
+    -fx-background-color: #e74856;
+    -fx-text-fill: white;
+}
+
+/* TextArea (konsola) */
+.text-area {
+    -fx-background-color: #141414;
+    -fx-text-fill: #e0e0e0;
+}
+
+.text-area .content {
+    -fx-background-color: #141414;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: #141414;
+}
+
+/* Tooltip */
+.tooltip {
+    -fx-background-color: #252526;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #e74856;
+    -fx-font-size: 12px;
+}
+
+/* Button hover effects */
+.button:hover {
+    -fx-background-color: #c93946;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #a82e3a;
+}
+
+/* Split pane divider */
+.split-pane-divider {
+    -fx-background-color: #3e3e42;
+    -fx-padding: 0 1 0 1;
+}
+
+/* Selection */
+.text-area .selection,
+.code-area .selection {
+    -fx-fill: #e74856;
+    -fx-background-color: #e7485644;
+}
